@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><body>
+  <title>Yeetzah</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+<body>
+  <form id="dice">
+    <table>
+      <tr id="diceValue">
+        <td id="die0Value"></td>
+        <td id="die1Value"></td>
+        <td id="die2Value"></td>
+        <td id="die3Value"></td>
+        <td id="die4Value"></td>
+      </tr>
+      <tr>
+        <td colspan="5">Hold</td>
+      </tr>
+      <tr id="diceHold">
+        <td><input type="checkbox" id="die0"</td>
+        <td><input type="checkbox" id="die1"</td>
+        <td><input type="checkbox" id="die2"</td>
+        <td><input type="checkbox" id="die3"</td>
+        <td><input type="checkbox" id="die4"</td>
+      </tr>
+      <tr>
+        <td colspan="5"><button id="roll" type="button">Roll</button></td>
+    </table>
+  </form>
+  <script src="assets/js/main.js"></script>
+  <table>
+    <tr>
+      <th>Top scores</th>
+    </tr>
+    <tr>
+      <td><button type="button" id="button1">Ones:</button></td>
+      <td id="1"></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="button2">Twos:</button></td>
+      <td id="2"></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="button3">Threes:</button></td>
+      <td id="3"></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="button4">Fours:</button></td>
+      <td id="4"></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="button5">Fives:</button></td>
+      <td id="5"></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="button6">Sixes:</button></td>
+      <td id="6"></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>Bottom scores</th>
+    </tr>
+    <tr>
+      <td><button type="button" id="threeOfKind">Three of a kind:</button></td>
+      <td id="threeOfKindScore"></td>
+    </tr>
+  </table>
+</body>
+</html>
